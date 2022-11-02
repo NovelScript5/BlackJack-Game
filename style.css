@@ -1,0 +1,83 @@
+body {
+    background-color:#1DB954;
+    text-align: center;
+    font-family: consolas, sans-serif;  
+}
+.Header {
+    color: #d6d300;
+    font-weight: bold;
+    font-size: 35px;
+    margin-top: 60px;
+    transition: color 0.1s;
+    cursor: pointer;
+}
+
+.Header:hover {
+    color: #FFFC00;
+}
+
+.script,#Script,#ScriptEmoji,.scriptSum {
+    font-size: 28px;
+    color: rgb(226, 226, 226);
+    font-weight: bold;
+    margin-top: 60px;
+    transition: color 0.1s;
+    cursor: pointer;
+}
+
+.script:hover,#Script:hover,.scriptSum:hover {
+    color: white;
+}
+
+#ScriptEmoji {
+    font-size: 40px;
+}
+
+.Buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#Start,#NewCard,#Refresh {
+background-color:#F25022;
+font-weight: bold;
+font-size: 18px;
+width: 120px;
+height: 40px;
+border-radius: 4px;
+border: none;
+cursor: pointer;
+color: rgb(226, 226, 226);
+transition: color, background-color 0.1s;
+margin-bottom: 20px;
+}
+
+#Refresh{
+    background-color: #367ef3;
+    transition: background-color,color 0.1s;
+}
+
+#Refresh:hover {
+    background-color: #2275fb;
+    color: white;
+    font-weight: bold;
+}
+
+#NewCard {
+    background-color: #FFFC00;
+    color: rgb(61, 61, 61);
+    transition: bakcground-color, color 0.1s;
+    font-weight: bolder;
+}
+#NewCard:hover {
+    background-color: #ffd900;
+    color: black;
+}
+
+#Start:hover {
+    background-color:#FF0000;
+    color: white;
+}
+
